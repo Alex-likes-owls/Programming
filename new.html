@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New</title>
+    <style>
+      body {
+        background-color: #333;
+      }
+      td,
+      th,
+      tr {
+        border: 1px solid #f1f1f1;
+        text-align: center;
+      }
+      #table1 {
+        border-collapse: collapse;
+        width: 700px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      video {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        min-height: 100%;
+      }
+      .block {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .inline {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      p {
+        font-size: large;
+      }
+      strong {
+        font-size: large;
+        color: rgb(103, 129, 152);
+      }
+      .ga {
+        color: #f1f1f1;
+      }
+      a {
+        font-size: large;
+        color: #f1f1f1;
+      }
+      dt {
+        font-size: larger;
+      }
+      dd {
+        font-size: 18px;
+      }
+      li {
+        font-size: 18px;
+      }
+      ::-webkit-media-controls-start-playback-button {
+        display: none !important;
+        -webkit-appearance: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; color: #f1f1f1">Stuff I learnt today</h1>
+    <div class="ga">
+      <h2>1. Container</h2>
+      <ol>
+        <li>
+          <strong>Block elements</strong>
+          <p>Example:</p>
+          <div class="block">DIV</div>
+          <div class="block">DIV</div>
+        </li>
+        <li>
+          <strong>Inline elements</strong>
+          <p>Example:</p>
+          <span class="inline">SPAN</span>
+          <span class="inline">SPAN</span>
+        </li>
+      </ol>
+    </div>
+    <div class="ga">
+      <h2>2. Semantic</h2>
+      <ol>
+        <li>
+          <strong>Section</strong>
+          <p>
+            <strong>The &lt;section&gt; defines section in a document</strong>
+          </p>
+          <p>Example:</p>
+          <section style="font-size: 18px">
+            The &lt;section> element is not a generic container element. When an
+            element is needed only for styling purposes or as a convenience for
+            scripting, authors are encouraged to use the &lt;div> element
+            instead. A general rule is that the &lt;section&gt; element is
+            appropriate only if the element&#39;s contents would be listed
+            explicitly in the document&#39;s outline.
+          </section>
+        </li>
+        <li>
+          <strong>Article</strong>
+          <p>
+            <strong
+              >The &lt;article&gt; element specifies independent, self-contained
+              content</strong
+            >
+          </p>
+          <p>Example:</p>
+          <article style="font-size: 18px">
+            The &lt;article> element is even more specific than a &lt;section>.
+            It is also applied to a section of content that is semantically
+            related, and should also have a heading. However, this section of
+            content should additionally be "self-contained". This means that the
+            contents of an &lt;article> should be able to be isolated from the
+            rest of the page and still be meaningful.
+          </article>
+          <div>
+            If still unsure click
+            <a target="_blank" href="https://bitsofco.de/img/wreOe6bF5Y-1169.avif">here.</a>
+          </div>
+        </li>
+        <li>
+          <strong>Time</strong>
+          <p><strong>The &lt;time&gt; defines time</strong></p>
+          <p>Example:</p>
+          <time style="font-size: 18px">June 14th 2023</time>
+        </li>
+        <li>
+          <strong>Mark</strong>
+          <p><strong>The &lt;mark&gt;specifies something</strong></p>
+          <p>Example:</p>
+          <mark style="font-size: 18px">I am sad</mark>
+        </li>
+      </ol>
+    </div>
+    <div class="ga">
+      <h2>3. Table</h2>
+      <table id="table1">
+        <thead>
+          <th colspan="3">Personal information</th>
+        </thead>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <td>Alex</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Age</th>
+            <td>14</td>
+          </tr>
+          <tr>
+            <th>Likes</th>
+            <td>Watching Netflix</td>
+          </tr>
+          <tr>
+            <th>Dislikes</th>
+            <td>Exercising</td>
+          </tr>
+          <tr>
+            <th>Hobby</th>
+            <td>Sleeping</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Total</th>
+            <td>5</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="ga">
+      <h2>4. Video & Audio</h2>
+      <video controls autoplay loop src="/img/Lofi.mp4"></video>
+      <audio autoplay loop src="/img/lofi-study-112191.mp3"></audio>
+    </div>
+    <div class="ga">
+      <h2>5. List</h2>
+      <p><strong>Ordered</strong></p>
+      <ol>
+        <li>Order! Order!</li>
+        <li>Order! Order!</li>
+      </ol>
+      <p><strong>Unordered</strong></p>
+      <ul>
+        <li>Chaos! Chaos!</li>
+        <li>Chaos! Chaos!</li>
+      </ul>
+      <p><strong>Description</strong></p>
+      <dl>
+        <b>
+          <dt>Javascript</dt>
+        </b>
+        <dd>Javascript is cool</dd>
+        <b>
+          <dt>HTML</dt>
+        </b>
+        <dd>smth</dd>
+        <b>
+          <dt>CSS</dt>
+        </b>
+        <dd>cool B&#41;&#41;</dd>
+      </dl>
+    </div>
+    <div>
+      <a href="./other.html">Other</a>
+    </div>
+  </body>
+</html>
