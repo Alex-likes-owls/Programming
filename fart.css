@@ -1,0 +1,106 @@
+li {
+  display: inline;
+  font-size: larger;
+  margin: 20px;
+}
+ul {
+  background-color: #333;
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+.hi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0-0 40px rgba(0, 0, 0, 0.4);
+}
+a:hover {
+  color: gray;
+}
+.lord {
+  flex-direction: column;
+  
+}
+.hah {
+  display: flex;
+}
+.color1:hover {
+  color: plum;
+}
+.color2:hover {
+  color: palegreen;
+}
+.color3:hover {
+  color: paleturquoise;
+}
+.color4:hover {
+  color: powderblue;
+}
+.color5:hover {
+  color: pink;
+}
+.color1 {
+  background: linear-gradient(
+    90deg,
+    rgb(15, 12, 62) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #f4f4f4;
+  font-size: large;
+  border-radius: 10px 0 0 0;
+  width: 100px;
+  height: 100px;
+}
+.color2 {
+  background: linear-gradient(
+    90deg,
+    rgba(90, 46, 110, 1) 11%,
+    rgba(150, 79, 157, 1) 54%,
+    rgba(179, 116, 169, 1) 82%
+  );
+  color: #f4f4f4;
+  font-size: large;
+  width: 100px;
+  height: 100px;
+}
+.color3 {
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  font-size: large;
+  color: aliceblue;
+  width: 100px;
+  height: 200px;
+}
+.color4 {
+  background: linear-gradient(
+    0deg,
+    rgba(195, 142, 34, 1) 0%,
+    rgba(253, 65, 45, 1) 100%
+  );
+  color: #f4f4f4;
+  font-size: large;
+  width: 100px;
+  height: 200px;
+  border-radius: 0 10px 0 0;
+}
+.color5 {
+  background: linear-gradient(
+    0deg,
+    rgba(79, 34, 195, 1) 0%,
+    rgba(253, 65, 45, 1) 100%
+  );
+  color: #f4f4f4;
+  font-size: large;
+  border-radius: 0 0 10px 10px;
+  width: 300px;
+  height: 100px;
+}
