@@ -24,7 +24,6 @@ a:hover {
 }
 .lord {
   flex-direction: column;
-  
 }
 .hah {
   display: flex;
@@ -103,4 +102,45 @@ a:hover {
   border-radius: 0 0 10px 10px;
   width: 300px;
   height: 100px;
+}
+.jk{
+  flex-direction: column;
+}
+.hey {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.stuff1 {
+  border: 1px solid #333;
+  border-radius: 10px 10px 0 0;
+  width: 350px;
+  height: 50px;
+}
+.stuff2 {
+  border: 1px solid #333;
+  height: 200px;
+  width: 130px;
+}
+.stuff3 {
+  border: 1px solid #333;
+  height: 200px;
+  width: 219px;
+}
+.stuff4 {
+  border: 1px solid #333;
+  border-radius: 0 0 10px 10px;
+  width: 350px;
+  height: 50px;
+}
+.mmh {
+  display: flex;
+}
+.god {
+  flex-direction: column;
+  position: relative;
+  left: 100px;
+}
+.hmh{
+    display: flex;
 }

@@ -1,0 +1,135 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #9daddf;
+}
+.cake {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+li {
+  padding-left: 10px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #212c58;
+  height: 10vh;
+  box-shadow: 10px 10px 55px -9px rgba(22, 20, 20, 0.39);
+  -webkit-box-shadow: 10px 10px 55px -9px rgba(22, 20, 20, 0.39);
+  -moz-box-shadow: 10px 10px 55px -9px rgba(22, 20, 20, 0.39);
+}
+.hey {
+  text-decoration: none;
+  color: #c5d4c5;
+  font-size: larger;
+}
+.hey:hover {
+  color: #eff1f3;
+}
+.container {
+  display: flex;
+}
+.left {
+  height: 90vh;
+  flex-grow: 1;
+  color: #212c58;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.l {
+  width: 30vw;
+  height: 50vh;
+  border-radius: 20px;
+  object-fit: cover;
+}
+p {
+  font-size: larger;
+}
+.look {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.owl {
+  padding: 10px;
+  border-radius: 20px;
+  width: 15vw;
+  height: 35vh;
+  object-fit: cover;
+}
+.sad {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.st {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heh {
+  display: flex;
+  flex-direction: row;
+}
+td,
+th,
+tr {
+  border: 0.001vw solid #f1f1f1;
+  text-align: center;
+  font-size: large;
+  color: #212c58;
+}
+table {
+  border-collapse: collapse;
+  width: 50vw;
+  height: 15vh;
+}
+.fb {
+  width: 20px;
+}
+::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+.blue {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jelly {
+  width: 20vw;
+  height: 40vh;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.mija {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.he {
+  text-decoration: none;
+  color: #212c58;
+  font-size: 24px;
+}
+.he:hover {
+  color: #5f6e9b;
+}
+.blues {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
