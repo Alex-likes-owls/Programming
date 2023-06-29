@@ -10,19 +10,18 @@ let a = prompt("Add the value for a");
 let b = prompt("Add the value for b");
 a = parseFloat(a);
 b = parseFloat(b);
-function large () {
-  return Math.max(a,b);
-}
-let result = large(a, b)
+const large = () => {
+  return Math.max(a, b);
+};
+let result = large(a, b);
 console.log("The max number is ", result);
 alert("The max number is " + result);
-
 
 /* let a = prompt("Add the value for a");
 let b = prompt("Add the value for b");
 a = parseFloat(a);
 b = parseFloat(b);
-function large () {
+const large = () => {
   if (a > b) return a;
   else return b;
 }

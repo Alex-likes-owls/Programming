@@ -1,11 +1,11 @@
 /* Number 0 */
 /* const showStars = (input) => {
-    let stars = ''
-    for(let i = 0; i < input; i++) {
-        stars +='*'
-        console.log(stars)
-    }
-}
+  let stars = "";
+  for (let i = 0; i < input; i++) {
+    stars += "*";
+    console.log(stars);
+  }
+};
 showStars(5); */
 
 /* Number 1 */
@@ -28,7 +28,7 @@ console.log(count); */
   name: "Prius",
   price: 20000000,
 };
-function obj_car() {
+const obj_car = () => {
   for (const key in car) {
     console.log(key + "=", car[key]);
   }
@@ -54,7 +54,7 @@ alert("The sum of numbers divisible by 3 or 5 is " + count); */
 /* Number 4 */
 /* let arr = [90, 84, 100, 69, 63, 76, 100, 100, 91, 86, 100, 100, 100, 85];
 let grade;
-function average(input) {
+const average = (input) => {
   let sum = 0;
   for (let i = 0; i < input.length; i++) {
     sum = sum + input[i];
@@ -63,7 +63,7 @@ function average(input) {
   return grade;
 }
 average(arr);
-function GPA() {
+const GPA = () => {
   if (grade >= 95) {
     console.log("A, 4.0");
     alert("A, 4.0");
@@ -96,7 +96,7 @@ function GPA() {
 GPA(grade); */
 /* Number 5 */
 let number = prompt("Add value of number");
-function isPrime(input) {
+const isPrime = (input) => {
   if (input < 2) {
     return false;
   }
@@ -106,7 +106,7 @@ function isPrime(input) {
     }
   }
   return true;
-}
+};
 for (let i = 0; i < number; i++) {
   if (isPrime(i)) {
     console.log(i);
