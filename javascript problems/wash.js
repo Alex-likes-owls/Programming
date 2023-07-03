@@ -63,7 +63,8 @@ alert("The number of odd numbers are "+o);
  */
 
 /* Four */
-/* let f = prompt("Add value of your number");
+let f = prompt("Add value of your number");
+f = parseFloat(f);
 if (f % 3 == 0 && f % 5 == 0) {
   console.log("FizzBuzz");
   alert("FizzBuzz");
@@ -73,13 +74,13 @@ if (f % 3 == 0 && f % 5 == 0) {
 } else if (f % 3 != 0 && f % 5 == 0) {
   console.log("FizzBuzz");
   alert("Buzz");
+} else if (!Number.isInteger(f)) {
+  console.log("Not a number");
+  alert("Not a number");
 } else if (f % 3 != 0 && f % 5 != 0) {
   console.log("Input");
   alert("Input");
-} else {
-  console.log("Not a number");
-  alert("Not a number");
-} */
+}
 
 /* Five */
 /* let speed = prompt("What was the speed?");
