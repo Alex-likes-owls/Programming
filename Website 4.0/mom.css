@@ -1,0 +1,127 @@
+:root {
+  --color1: #335c8c;
+  --color2: #122f60;
+  --color3: aliceblue;
+  --color4: #3c5b83;
+  --color5: #bbd2ec;
+  --color6: #041320;
+  --color7: #052c54;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color2);
+  height: 100vh;
+  width: 100vw;
+  font-family: Garamond;
+}
+.navbar {
+  display: flex;
+}
+nav {
+  background-color: var(--color2);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.blueswirl {
+  width: 12%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  display: flex;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.menu-items {
+  margin: 5%;
+  font-size: larger;
+  display: flex;
+}
+a {
+  color: var(--color3);
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color: var(--color4);
+}
+.foot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  color: var(--color3);
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  margin: 0%;
+  width: 40%;
+  margin-top: 8%;
+}
+.False {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.desc {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color5);
+}
+.blue {
+  width: 100%;
+  border-radius: 10px;
+}
+.ri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 10%;
+}
+.right {
+  width: 60%;
+  border-radius: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.button1 {
+  border-radius: 40px;
+  height: 10%;
+  width: 25%;
+  padding: 1.5%;
+  border: 2px solid var(--color6);
+  background-color: var(--color7);
+  color: var(--color3);
+  font-size: 24px;
+  font-family: Garamond;
+}
+.button2 {
+  width: 25%;
+  border: 0;
+  background-color: var(--color2);
+  font-family: Garamond;
+  font-size: 24px;
+  color: var(--color3);
+}
