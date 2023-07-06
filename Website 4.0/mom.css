@@ -7,47 +7,49 @@
   --color6: #041320;
   --color7: #052c54;
   --color8: #a3ceef;
+  --colorbox: #e1cdcf;
+  --colorGumball: #60a8be;
+  --coloranais: #ebc4c8;
 }
-body {
+.active {
+  color: var(--colorGumball) !important;
+}
+body,
+html {
   margin: 0;
   padding: 0;
   background-color: var(--color2);
   height: 100vh;
   width: 100vw;
   font-family: Garamond;
-}
-.navbar {
-  display: flex;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 nav {
-  background-color: var(--color2);
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
   width: 100vw;
-  height: 10vh;
+  height: 8vh;
+  background-color: var(--color2);
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  overflow: hidden;
-}
-.blueswirl {
-  width: 12%;
-  height: 100%;
-  display: flex;
   justify-content: center;
-  align-items: center;
-}
-.list {
-  display: flex;
+  position: sticky;
 }
 .menu {
+  width: 100%;
   list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 .menu-items {
-  margin: 5%;
+  margin: 1%;
   font-size: larger;
   display: flex;
 }
@@ -59,12 +61,18 @@ a {
 a:hover {
   color: var(--color4);
 }
-.home{
-  height: calc(100vh - 15vh);
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  overflow: hidden;
 }
 .foot {
+  margin-top: 3%;
+  margin-bottom: 3%;
   width: 100%;
-  height: 90%;
+  height: 77.2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +84,6 @@ a:hover {
   padding: 1.5rem !important;
   margin: 0%;
   width: 40%;
-  margin-top: 8%;
 }
 .False {
   display: flex;
@@ -129,7 +136,6 @@ a:hover {
   justify-content: center;
   align-items: center;
   width: 50%;
-  margin-top: 10%;
 }
 .right {
   width: 70%;
@@ -153,8 +159,8 @@ a:hover {
   transition: 0.5s;
 }
 .play {
-  width: 15%;
-  height: 55%;
+  width: 25px;
+  height: 25px;
   margin-right: 5%;
 }
 .button2 {
@@ -174,17 +180,193 @@ a:hover {
   color: var(--color8);
   border-color: var(--color7);
 }
-.button2:hover{
+.button2:hover {
   color: var(--color8);
 }
-.trait-items{
+.trait-items {
   list-style-type: none;
   color: var(--color6);
-  margin-top: 1.5rem;
+  font-size: 24px;
+  transition: 0.5s;
+}
+.Traits {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(96, 168, 190, 0.9);
+  height: 100%;
+}
+.box {
+  width: 100%;
+  height: 10%;
+}
+.trait-items:hover {
+  transform: scale(1.2);
+  cursor: default;
+}
+.about {
+  height: auto;
+  width: 100vw;
+  color: var(--color6);
+  background-color: var(--colorGumball);
+}
+.me {
+  margin: 0;
+  padding-top: 1%;
+  text-align: center;
+}
+.half {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-size: 26px;
+}
+.half1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 1rem;
+}
+.bs {
   font-size: 24px;
 }
-.Traits{
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  background: rgba(18, 47, 96, 0.8);
+}
+.gum {
+  width: 25%;
+  border-radius: 20px;
+}
+.ball {
   display: flex;
-  align-items: end;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 3rem;
+}
+.gumbal {
+  width: 80%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.da{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 1rem;
+}
+.dar{
+  width: 80%;
+  padding-right: 1.5rem;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bsg {
+  font-size: 24px;
+}
+.ana {
+  width: 50%;
+  padding-left: 1rem;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ra{
+  width: 50%;
+  padding-right: 1rem;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gumball {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.imagesa{
+  width: 35%;
+}
+.images {
+  width: 65%;
+}
+.gumb {
+  border-radius: 20px;
+  padding: 1rem;
+}
+.guball {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dANDg{
+  display: flex;
+  justify-content: space-evenly;
+}
+.an {
+  display: flex;
+  justify-content: space-evenly;
+}
+.funny {
+  width: 40%;
+}
+.penball {
+  width: 45%;
+}
+.shrug {
+  width: 35%;
+}
+.gif {
+  width: 40%;
+}
+.daisy {
+  width: 40%;
+}
+.anais {
+  width: 40%;
+}
+.darwin {
+  width: 55%;
+}
+.orange {
+  width: 35%;
+}
+.nanda {
+  width: 45%;
+}
+.randn {
+  width: 45%;
+}
+.cuute{
+  width: 43%;
+}
+.darwinandgum {
+  width: 50%;
 }
